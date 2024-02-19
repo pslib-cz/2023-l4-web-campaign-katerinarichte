@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Marion-regular";
+    src: url('./fonts/Marion_Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Marion-italic";
+    src: url('./fonts/Marion_Italic.ttf') format('truetype');
+    font-weight: italic; 
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: "Marion-bold";
+    src: url('./fonts/Marion_Bold.ttf') format('truetype');
+    font-weight: bold; 
+    font-style: normal;
+}
+
+body {
+    font-family: "Marion";
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Marion-bold";
+}
+p {
+    font-size: 14px;
+}
+.why-us p{
+    font-weight: bold;
+}
+.about-us p {
+    font-size: 18px;
+}
+@media (min-width: 768px) {
+    .coffee h2 {
+        font-size: 40px;
+    }
+    .about-us h2 {
+        font-size: 70px;
+    }
+}
