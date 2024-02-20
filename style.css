@@ -349,3 +349,34 @@ footer {
         margin-bottom: 0em;
     }
 }
+
+    /*desktop*/
+    @media (min-width:1020px) {
+        .home__menu__burger{
+            display: none;
+        }
+        .home__menu--links {
+            display: flex;
+            margin-top: -120px;
+            position: absolute;
+            background-color: transparent;
+            transform: none;
+            flex-direction: row-reverse;
+            align-items: center;
+        }
+        .home__menu--links a {
+             color: var(--white);
+             padding: 1em;
+        }
+        .home__menu--links li:first-child {
+           margin-top: 1em;
+        }
+        .why-us--gallery--card {
+            margin: 0 5em;
+        }
+        .about-us p  {
+            margin: 0 7em 0 1em;
+        }
+        
+        
+    }
