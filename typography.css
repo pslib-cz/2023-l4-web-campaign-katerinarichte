@@ -1,17 +1,17 @@
 @font-face {
     font-family: "Marion-regular";
-    src: url('./fonts/Marion_Regular.ttf') format('truetype');
+    src: url('./fonts/Marion\ Regular/.ttf format')('truetype');
 }
 @font-face {
     font-family: "Marion-italic";
-    src: url('./fonts/Marion_Italic.ttf') format('truetype');
+    src: url('./fonts/Marion\ Italic/.ttf format') ('truetype');
     font-weight: italic; 
     font-style: normal; 
 }
 
 @font-face {
     font-family: "Marion-bold";
-    src: url('./fonts/Marion_Bold.ttf') format('truetype');
+    src: url('./fonts/Marion\ Bold/.ttf format')('truetype');
     font-weight: bold; 
     font-style: normal;
 }
@@ -38,4 +38,33 @@ p {
     .about-us h2 {
         font-size: 70px;
     }
+}
+@media (min-width: 1020px) {
+    .coffee .width {
+        margin: 0 4em;
+    }
+    .coffee .caption {
+        font-size: 22px;
+    }
+    .why-us p {
+        font-size: 18px;
+    }
+    .about-us p {
+        font-size: 22px;
+    }
+    .about-us .button {
+        width: 10em;
+        height: 4em;
+        margin-top: 4em;
+    }
+    .about-us figure {
+        width: 50%;
+    }
+    .about-us p {
+        width: 50%;
+    }
+    .about-us .width {
+        margin: 0 5em;
+    }
+   
 }
